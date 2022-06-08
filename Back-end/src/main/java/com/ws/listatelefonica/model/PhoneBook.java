@@ -13,7 +13,7 @@ public class PhoneBook {
 
     @Id
     @GeneratedValue(strategy = javax.persistence.GenerationType.AUTO)
-    private long Id;
+    private long id;
     private String name;
     private String address;
     private String phone;
